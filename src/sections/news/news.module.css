@@ -1,0 +1,135 @@
+.blogWrapper{
+    padding: 30px 10%;
+}
+
+.blogWrapper p{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(42, 167, 255, 1);
+}
+
+.blogWrapper h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: center;
+    color: rgba(27, 60, 116, 1);
+    margin-top: 0;
+}
+
+.blogs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card{
+    text-wrap: wrap;
+    max-width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    margin: 10px;
+    flex: 1 1 calc(33.333% - 40px); /* Flex basis for 3 cards per row, subtracting the total margin */
+    box-sizing: border-box;
+}
+
+.cardContent{
+    margin: 15px;
+}
+
+.cardContent span{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(119, 130, 157, 1);
+}
+
+.cardContent h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(27, 60, 116, 1);
+}
+
+.image img{
+    height: 280px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.author img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.author span{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: rgba(27, 60, 116, 1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .blogs {
+        justify-content: center;
+    }
+    .card {
+        flex: 1 1 calc(50% - 40px); /* Flex basis for 2 cards per row, subtracting the total margin */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(100% - 40px); /* Flex basis for 1 card per row, subtracting the total margin */
+    }
+    .image img {
+        height: auto;
+    }
+    .author img {
+        height: 25px;
+        width: 25px;
+    }
+    .author span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blogWrapper {
+        padding: 20px 5%;
+    }
+    .blogWrapper h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .blogWrapper p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .cardContent h3 {
+        font-size: 16px;
+    }
+    .cardContent span {
+        font-size: 15px;
+    }
+}

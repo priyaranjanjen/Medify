@@ -1,0 +1,36 @@
+.button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(42, 168, 255, 1);
+    color: #fff;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    /* gap: 13px; */
+    /* display: flex;
+    align-items: center; */
+}
+
+.searchButton{
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(42, 168, 255, 1);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin-right: 12px;
+}
+

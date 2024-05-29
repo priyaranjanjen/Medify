@@ -1,0 +1,28 @@
+.specialisation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin:  10%;     */
+}
+
+.specialisation h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(27, 60, 116, 1);
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    /* align-items: center; */
+}
+
+.button{
+    margin-top: 50px;
+}

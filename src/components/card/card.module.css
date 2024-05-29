@@ -1,0 +1,42 @@
+.card{
+    background: rgba(250, 251, 254, 1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    height: 100px;
+    border-radius: 14px;
+    gap: 20px;
+
+    border: 1px;
+
+    box-shadow: 0px 34px 44px 0px rgba(213, 219, 228, 0.44);
+
+}
+
+.secondary{
+    padding: 15px 52px;
+}
+
+.cardText{
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: rgba(171, 182, 199, 1);
+}
+
+.card:hover{
+    background: rgba(42, 167, 255, 0.08);
+    border: 1px solid rgba(42, 167, 255, 1)
+
+}
+
+.card:hover .cardText{
+    font-weight: 600;
+    color: rgba(42, 167, 255, 1);
+}
+

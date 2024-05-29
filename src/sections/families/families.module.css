@@ -1,0 +1,73 @@
+.sectionWrapper{
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    padding: 30px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row; /* Ensure the default direction is row */
+}
+
+.sectionText p{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: left;
+    color: rgba(42, 167, 255, 1);
+}
+
+.sectionText h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 67px;
+    text-align: left;
+    color: rgba(27, 60, 116, 1);
+    margin-top: 0;
+}
+
+.sectionText span{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40.8px;
+    text-align: left;
+    color: rgba(119, 130, 157, 1);
+}
+
+.sectionImage img{
+    width: 585px;
+    height: 714px;
+    height: auto;
+}
+
+
+@media (max-width: 968px) {
+    .sectionWrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sectionText h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .sectionText p, .sectionText span {
+        font-size: 15px;
+        line-height: 22px;
+    }   
+}
+
+@media (max-width: 480px) {
+    .sectionWrapper {
+        padding: 15px 5%;
+    }
+    .sectionText h1 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .sectionText p, .sectionText span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
